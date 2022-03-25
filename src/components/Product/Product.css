@@ -1,0 +1,32 @@
+.btn-Cart{
+    background-color: white;
+    color: rgb(1, 11, 29);
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.btn-Cart:hover{
+    background-color: white;
+    color: red;
+}
+.btn-Cart:active{
+    background-color: red;
+    color: white;
+}
+.card-style p{
+    line-height: 5px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.card-style{
+    background-color: rgb(38, 97, 206);
+    color: white;
+}
+
+.card-style:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transform: scale(1.02);
+    transition: all 1s;
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "category": "Dell light book",
+        "name": "Dell light book pro",
+        "seller": "Dell",
+        "price": 420,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "2",
+        "category": "Asus light",
+        "name": "Asus book pro",
+        "seller": "Asus",
+        "price": 432,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "3",
+        "category": "Acer light book",
+        "name": "Acer light pro",
+        "seller": "Acer",
+        "price": 342,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "4",
+        "category": "Mac book",
+        "name": "Mac book pro",
+        "seller": "Apple",
+        "price": 530,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "5",
+        "category": "Asus rogue",
+        "name": "Asus rogue ultra",
+        "seller": "Asus",
+        "price": 290,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "6",
+        "category": "Mac notebook",
+        "name": "Mac Notebook",
+        "seller": "Mac",
+        "price": 470,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "7",
+        "category": "Dell inspiron",
+        "name": "Dell Inspiron v3",
+        "seller": "Dell",
+        "price": 820,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "8",
+        "category": "Acer aspire",
+        "name": "Dell Aspire v5",
+        "seller": "Acer",
+        "price": 390,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "9",
+        "category": "Hp super",
+        "name": "Hp super ultra",
+        "seller": "Hp",
+        "price": 490,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "10",
+        "category": "Dell inspiron v5",
+        "name": "Dell Inspiron v5",
+        "seller": "Dell",
+        "price": 520,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "11",
+        "category": "Macbook gaming",
+        "name": "Macbook Gaming",
+        "seller": "Apple",
+        "price": 530,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "12",
+        "category": "Acer gaming kit",
+        "name": "Acer Gaming Kit",
+        "seller": "Acer",
+        "price": 425,
+        "stock": 20,
+        "img": "https://img.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg?size=626&ext=jpg",
+        "shipping": 1,
+        "quantity": 0
+    }
+]

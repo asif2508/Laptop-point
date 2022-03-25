@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import {Row, Col, Card, CardGroup, Container} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
 import Product from '../Product/Product';
 import './Shop.css';
 
@@ -15,8 +15,9 @@ const Shop = () => {
     return (
         <div className='shop-conatiner'>
            <Container>
+               <h1 className='mb-4'>Available Items</h1>
            <Row>
-                <Col xs={4} md={8} lg={8}>
+                <Col xs={12} md={8} lg={8}>
                     <Row xs={1} md={3} className="g-4">
                         {
                             products.map(product => <Product

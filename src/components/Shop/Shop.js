@@ -4,6 +4,7 @@ import {Row, Col, Container} from 'react-bootstrap';
 import Items from '../Items/Items';
 import Product from '../Product/Product';
 import './Shop.css';
+import Item from '../Item/Item';
 
 const Shop = () => {
     // getting the products
@@ -20,11 +21,6 @@ const Shop = () => {
         let newSelected = [];
         newSelected = [...selected, selectedProduct];
         setSelected(newSelected);    
-    }
-
-    const chooseRandom = () =>{
-        let randomItem = selected[Math.floor(Math.random()*selected.length)];
-        console.log(randomItem);
     }
     return (
         <div className='shop-conatiner'>
@@ -49,7 +45,7 @@ const Shop = () => {
                         {
                             selected.map(item => <Items name={item.name}></Items>)
                         }
-                        <button onClick={chooseRandom} className='button-choose'>Choose Randomly</button>
+                        <Item selected={selected}></Item>
                 </div>
             
             </Col>

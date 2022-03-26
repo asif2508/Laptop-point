@@ -1,5 +1,6 @@
 .shop-conatiner{
     margin-top: 80px;
+    position: relative;
 }
 .button-choose{
     margin-top: 15px;
@@ -27,4 +28,9 @@
 .button-remove:hover{
     background-color: rgb(247, 11, 11);
     color: white;
+}
+.selected-item{
+    position: sticky;
+    top: 0;
+   
 }

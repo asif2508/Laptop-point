@@ -19,9 +19,15 @@ const Shop = () => {
     
     // adding to cart
     const AddToCart = selectedProduct =>{
-        let newSelected = [];
-        newSelected = [...selected, selectedProduct];
-        setSelected(newSelected);    
+        if(selected.length < 4){
+            let newSelected = [];
+            newSelected = [...selected, selectedProduct];
+            setSelected(newSelected);
+        }
+        else{
+            alert("You can't add more than four items!");
+            return null;
+        }    
     }
 
     const [show, setShow] = useState(false);

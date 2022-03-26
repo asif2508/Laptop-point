@@ -1,0 +1,13 @@
+.item-name{
+    border: 1px solid white;
+    font-weight: bold;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+
+}
+.item-section{
+    background-color: aliceblue;
+    border: 2px sold rgb(17, 17, 17);
+}

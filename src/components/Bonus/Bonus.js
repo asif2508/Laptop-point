@@ -35,7 +35,7 @@ const Bonus = () => {
                             <td>Props allow passing data from one component to other components.</td>
                             <td>State holds information about the components.</td>
                         </tr>
-                        <tr class="collapse multi-collapse1" id="multiCollapseExample1">
+                        <tr className="collapse multi-collapse1" id="multiCollapseExample1">
                             <td>Child col 1</td>
                             <td>Child col 2</td>
                             <td>Child col 3</td>
@@ -48,7 +48,7 @@ const Bonus = () => {
                             <td>Props are immutable.</td>
                             <td>State is mutable.</td>
                         </tr>
-                        <tr class="collapse multi-collapse2" id="multiCollapseExample2">
+                        <tr className="collapse multi-collapse2" id="multiCollapseExample2">
                             <td>Child col 1</td>
                             <td>Child col 2</td>
                             <td>Child col 3</td>
@@ -61,7 +61,7 @@ const Bonus = () => {
                             <td>Props are read-only.</td>
                             <td>State changes can be asynchronous.</td>
                         </tr>
-                        <tr class="collapse multi-collapse2" id="multiCollapseExample2">
+                        <tr className="collapse multi-collapse2" id="multiCollapseExample2">
                             <td>Child col 1</td>
                             <td>Child col 2</td>
                             <td>Child col 3</td>

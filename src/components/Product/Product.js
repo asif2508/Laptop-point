@@ -1,12 +1,13 @@
 import React from 'react';
-import { Card, CardGroup, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import './Product.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 const Product = (props) => {
-    const {name, img, seller, price, stock} = props.product;
+    const {name, img, seller, price, stock,id} = props.product;
+    const {AddToCart, product} = props;
     return (
         <div>
             <Col>
@@ -21,7 +22,7 @@ const Product = (props) => {
                     <p>Stock: {stock}</p>
                 </Card.Text>
                 </div>
-                <button className='btn-Cart'>Add to Cart <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon></button>
+                <button onClick={()=>AddToCart(product)} className='btn-Cart'>Add to Cart <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon></button>
                 
                 </Card.Body>
             </Card>

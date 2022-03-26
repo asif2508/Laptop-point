@@ -79,7 +79,7 @@ const Bonus = () => {
                         </Accordion>
                     </Col>
                     <Col xs={12} md={6} lg={6}>
-                        <img src="https://media.istockphoto.com/photos/buzzword-cubes-3d-rendering-picture-id1218187117?b=1&k=20&m=1218187117&s=170667a&w=0&h=tE7VPMlwedXSgVRT-NoAiJrY2WU8QCxS3GmheA9EGHk=" alt=""/>
+                        <img className='bonus-image' src="https://media.istockphoto.com/photos/buzzword-cubes-3d-rendering-picture-id1218187117?b=1&k=20&m=1218187117&s=170667a&w=0&h=tE7VPMlwedXSgVRT-NoAiJrY2WU8QCxS3GmheA9EGHk=" alt=""/>
                     </Col>
                 </Row>
             </Container>

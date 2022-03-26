@@ -1,18 +1,13 @@
 import React from 'react';
 import {Modal, Button} from 'react-bootstrap';
-import { useState } from 'react';
-const Item = ({selected}) => {
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+const Item = ({selected, show, handleClose}) => {
+    
     if(selected.length === 0){
         return null;
     }
     const randomItem = selected[Math.floor(Math.random()*selected.length)];
-
     return (
         <div>
-            <button onClick={handleShow} className='button-choose'>Choose Randomly</button>
             <Modal show={show} onHide={handleClose} size="md">
                     <Modal.Header closeButton>
                     <Modal.Title>Your Random Product</Modal.Title>

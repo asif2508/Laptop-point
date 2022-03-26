@@ -22,6 +22,19 @@ const Shop = () => {
         newSelected = [...selected, selectedProduct];
         setSelected(newSelected);    
     }
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => {
+        if(selected.length === 0){
+            return null;
+        }
+        setShow(true)
+    };
+    const removeItem =()=>{
+        const removeItems = [];
+        setSelected(removeItems);
+    }
     return (
         <div className='shop-conatiner'>
            <Container>
@@ -45,7 +58,12 @@ const Shop = () => {
                         {
                             selected.map(item => <Items name={item.name}></Items>)
                         }
-                        <Item selected={selected}></Item>
+                        <div className='d-flex justify-content-center align-items-center flex-column'>
+                        <button onClick={handleShow} className='button-choose'>Choose Randomly</button>
+                        
+                        <button onClick={removeItem} className='button-remove'>Remove Items</button>
+                        </div>
+                        <Item selected={selected} show={show} handleClose={handleClose}></Item>
                 </div>
             
             </Col>

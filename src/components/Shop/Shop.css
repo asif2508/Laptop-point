@@ -3,5 +3,22 @@
 }
 .button-choose{
     margin-top: 15px;
-    border: 1px solid black;
+    border: 0;
+    padding: 5px 20px;
+    background-color: rgb(156, 9, 9);
+    font-weight: bold;
+    color: white;
+}
+.button-choose:hover{
+    background-color: rgb(247, 11, 11);
+    color: white;
+}
+
+.button-remove{
+    margin-top: 10px;
+    border: 0;
+    padding: 5px 35px;
+    background-color: rgb(156, 9, 9);
+    font-weight: bold;
+    color: white;
 }

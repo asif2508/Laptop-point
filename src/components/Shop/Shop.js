@@ -55,7 +55,7 @@ const Shop = () => {
 
             <Col  xs={12} md={4} lg={4}>
                 <div className='selected-item'>
-                        <h3>Selected Products</h3>
+                        <h3 className='pt-5'>Selected Products</h3>
                         <h5>Products Quantity: {selected.length}</h5>
                         {
                             selected.map(item => <Items name={item.name}></Items>)
@@ -63,7 +63,7 @@ const Shop = () => {
                         <div className='d-flex justify-content-center align-items-center flex-column'>
                         <button onClick={handleShow} className='button-choose'>Choose Randomly</button>
                         
-                        <button onClick={removeItem} className='button-remove'>Remove Items
+                        <button onClick={removeItem} className='button-remove'>Choose again
                         </button>
                         </div>
                         <Item selected={selected} show={show} handleClose={handleClose}></Item>

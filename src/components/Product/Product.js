@@ -11,7 +11,7 @@ const Product = (props) => {
         <div>
             <Col>
             <Card className='card-style'>
-                <Card.Img variant="top" src={img} />
+                <Card.Img variant="top" src={img} height="150px" width="200px"/>
                 <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <div className='mt-3'> 
